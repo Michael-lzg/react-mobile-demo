@@ -5,7 +5,6 @@ import List from './views/list'
 import Deatil from './views/detail'
 
 
-
 function App () {
   return (
     <BrowserRouter>

@@ -48,10 +48,6 @@ class Home extends Component {
   }
 
   render () {
-    const data = Array.from(new Array(8)).map((_val, i) => ({
-      icon: 'https://gw.alipayobjects.com/zos/rmsportal/nywPmnTAvTmLusPxHPSu.png',
-      text: `name${i}`,
-    }));
     return (
       <div className="mainPage">
         <div className="banner" style={{ height: '200px' }}>

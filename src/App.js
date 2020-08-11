@@ -3,7 +3,8 @@ import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
 import Home from './views/Home'
 import List from './views/list'
 import Deatil from './views/detail'
-import './css/common.css'
+
+
 
 function App () {
   return (

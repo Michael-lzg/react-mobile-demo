@@ -17,6 +17,18 @@ body {
   overflow: hidden;
 }
 
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.mainPage {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
 .f_left {
   float: left;
 }
@@ -33,12 +45,13 @@ body {
   float: right;
 }
 
-.clear:before,
-.car_prefix ul:after {
+.clearfix:after {
+  clear: both;
   content: '';
   display: block;
+  width: 0;
   height: 0;
-  clear: both;
+  visibility: hidden;
 }
 
 .text_left {

@@ -1,0 +1,61 @@
+.list {
+  padding: 15px;
+  background-color: #fff;
+
+  .listItem {
+    padding: 20px 118px 9px 13px;
+    box-shadow: 0px 0px 8px 0px rgba(11, 3, 6, 0.1);
+    margin-top: 10px;
+    border-radius: 8px;
+    position: relative;
+    background-color: #fff;
+
+    .pic {
+      position: absolute;
+      right: 11px;
+      top: 20px;
+      width: 108px;
+      height: 93px;
+      border-radius: 8px;
+    }
+
+    .name {
+      font-size: 18px;
+      margin-bottom: 2px;
+      color: #000;
+    }
+
+    .label {
+      font-size: 12px;
+      color: #666;
+      margin-top: 8px;
+
+      >span {
+        padding: 0 2px;
+        background-color: #fbf1e7;
+        margin-right: 4px;
+      }
+
+      .km {
+        padding-right: 20px;
+      }
+    }
+
+    .position {
+      font-size: 12px;
+      color: #d3751d;
+      margin-top: 11px;
+    }
+
+    .quan {
+      padding: 10px 0;
+      font-size: 12px;
+      width: 200px;
+      border-top: 1px solid #f0f0f0;
+
+      >img {
+        margin-right: 4px;
+      }
+    }
+  }
+}

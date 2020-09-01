@@ -3,6 +3,7 @@ import '../css/reset.css'
 import '../css/home.scss'
 import { Carousel, Grid } from 'antd-mobile';
 import ShopBlock from '../components/shopBlock'
+// import Toast from '../components/toast'
 
 class Home extends Component {
   constructor(props) {
@@ -29,6 +30,7 @@ class Home extends Component {
 
   clickMenu (val) {
     console.log(val)
+    // Toast.success(val.text, 'success')
   }
 
   render () {
